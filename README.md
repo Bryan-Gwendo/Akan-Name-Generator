@@ -44,7 +44,7 @@ When the calculation is completed
 Then the user sees their Akan name corresponding to the day of the week they were born
 
 ### Live Link ###
-View the live link of the server: 
+View the live link of the server: https://bryan-gwendo.github.io/Akan-Name-Generator/
 
 ## Author ##
     Bryan Gwendo
