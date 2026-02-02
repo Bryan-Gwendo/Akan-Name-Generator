@@ -19,8 +19,8 @@ function generateAkan() {
     let MM = month;
     let DD = day;
 
-     let d = ((4 * CC - 2 * CC - 1) + (5 * YY / 4) + (26 * (MM + 1) / 10) + DD) % 7;
-    d = Math.floor(d);
+     let date = new Date(year, month - 1, day);
+     let d = date.getDay();
 
     let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
@@ -34,5 +34,5 @@ function generateAkan() {
     }
 
     document.getElementById("Akan Name").innerHTML =
-        "Your Akan Name:" + akanName;
+        "Your Akan Name : " + akanName;
 }
