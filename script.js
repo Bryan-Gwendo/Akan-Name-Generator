@@ -24,3 +24,15 @@ function generateAkan() {
 
     let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+
+     let akanName;
+
+    if (gender === "male") {
+        akanName = maleNames[d];
+    } else {
+        akanName = femaleNames[d];
+    }
+
+    document.getElementById("Akan Name").innerHTML =
+        "Your Akan Name:" + akanName;
+}
