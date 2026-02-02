@@ -10,14 +10,13 @@ body {
     font-family: "Segoe UI", Arial, sans-serif;
     color: #3b3b3b;
 }
-#head{
-     display: block;
-    background-color: #e6dbc8;
+#Head{
     padding: 30px;
     text-align: center;
     border-bottom: 3px solid #c4b59d;
      font-weight: 700;
     letter-spacing: 4px;
+    background-color: #e6dbc8;
 }
 .Desc{
     text-align: center;
@@ -27,4 +26,11 @@ body {
      font-style: italic;
      margin: 10px 0;
 
+}
+form {
+    background:#e6dbc8;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    border-radius: 8px;
 }
