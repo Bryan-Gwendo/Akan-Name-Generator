@@ -6,3 +6,10 @@ function generateAkan() {
 
     
     let gender = document.querySelector('input[name="gender"]:checked');
+
+       if (day < 1 || day > 31 || month < 1 || month > 12 || !gender) {
+        alert("Please enter valid date and select gender");
+        return;
+    }
+
+    gender = gender.value;
