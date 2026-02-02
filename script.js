@@ -13,3 +13,8 @@ function generateAkan() {
     }
 
     gender = gender.value;
+
+    let CC = Math.floor(year / 100);
+    let YY = year % 100;
+    let MM = month;
+    let DD = day;
