@@ -42,3 +42,14 @@ Scenario 4: User receives Akan name
 Given the user enters valid inputs and clicks “Submit”
 When the calculation is completed
 Then the user sees their Akan name corresponding to the day of the week they were born
+
+### Live Link ###
+View the live link of the server: 
+
+## Author ##
+    Bryan Gwendo
+
+### Contact ###
+For enquiries,
+Tel No : 0714996237
+Email : bryangwendo314@gmail.com
