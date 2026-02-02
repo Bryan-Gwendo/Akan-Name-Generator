@@ -28,9 +28,29 @@ body {
 
 }
 form {
-    background:#e6dbc8;
+    background: #e6dbc8;
     padding: 20px;
     width: 300px;
     margin: auto;
     border-radius: 8px;
 }
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
