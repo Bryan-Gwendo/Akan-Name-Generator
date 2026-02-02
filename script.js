@@ -18,3 +18,9 @@ function generateAkan() {
     let YY = year % 100;
     let MM = month;
     let DD = day;
+
+     let d = ((4 * CC - 2 * CC - 1) + (5 * YY / 4) + (26 * (MM + 1) / 10) + DD) % 7;
+    d = Math.floor(d);
+
+    let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+    let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
